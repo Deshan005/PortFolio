@@ -12,7 +12,8 @@ const About = () => {
             About
           </p>
         </div>
-        <p className="text-xl mt-20 text-justify">
+
+        <p className="text-xl mt-15 text-justify">
           I'am Namidu Deshan Wijethunga. Currently, I am in my second year of studies, and I have been actively involved in 
           enhancing my technical skills and knowledge. In addition to my coursework, I have been 
           dedicating my time to self-study the MERN stack, which encompasses MongoDB, Express.js,
@@ -22,7 +23,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl text-justify">
+        <p className="text-xl text-justify mb-20">
         Apart from my technical abilities, I possess strong leadership qualities, as 
         demonstrated by my involvement in various group projects and extracurricular activities 
         during my academic journey. I believe in effective communication, collaboration, and the ability to inspire and motivate team members to achieve common goals.

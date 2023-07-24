@@ -33,6 +33,7 @@ const NavBar = () => {
       <div>
         <h1 className="text-5xl font-signature ml-2">Deshan</h1>
       </div>
+      
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
