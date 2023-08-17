@@ -25,7 +25,7 @@ const Portfolio = () => {
     {
       id: 4,
       src: portfolio,
-      link: "",
+      link: "https://github.com/Deshan005/PortFolio",
     },
     {
       id: 5,
