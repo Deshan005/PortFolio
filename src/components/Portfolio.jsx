@@ -32,6 +32,11 @@ const Portfolio = () => {
       src: skincare,
       link: "https://github.com/Deshan005/Skin-Consultation-Management-System",
     },
+    {
+      id: 6,
+      src: skincare,
+      link: "https://github.com/Deshan005/Mr-Cinephile-Movie-Website",
+    },
   ];
 
   const handleButtonClick = (link, event) => {
