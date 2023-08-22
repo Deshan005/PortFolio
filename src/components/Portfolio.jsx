@@ -4,6 +4,7 @@ import fuel from "../assets/portfolio/fuel.png";
 import progression from "../assets/portfolio/progression.png";
 import portfolio from "../assets/portfolio/portfolio.png";
 import skincare from "../assets/portfolio/skincare.png";
+import cinephile from "../assets/portfolio/pop.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -34,7 +35,7 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      src: skincare,
+      src: cinephile,
       link: "https://github.com/Deshan005/Mr-Cinephile-Movie-Website",
     },
   ];
