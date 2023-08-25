@@ -27,8 +27,9 @@ const About = () => {
         <p className="text-xl text-justify mb-20">
         Apart from my technical abilities, I possess strong leadership qualities, as 
         demonstrated by my involvement in various group projects and extracurricular activities 
-        during my academic journey. I believe in effective communication, collaboration, and the ability to inspire and motivate team members to achieve common goals.
-        One of my strengths is my commitment to meeting deadlines and delivering quality work. 
+        during my academic journey. I believe in effective communication, collaboration, and the
+        ability to inspire and motivate team members to achieve common goals.One of my
+        strengths is my commitment to meeting deadlines and delivering quality work. 
         I understand the importance of responsibility and accountability in a professional 
         environment. I take ownership of my tasks and strive to exceed expectations by 
         producing high-quality code and solutions.
