@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div
+      <div
       name="about"
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
@@ -18,7 +18,8 @@ const About = () => {
           enhancing my technical skills and knowledge. In addition to my coursework, I have been 
           dedicating my time to self-study the MERN stack, which encompasses MongoDB, Express.js,
           React.js, and Node.js. I believe that by learning this stack, I am equipping myself to 
-          become a well-rounded and versatile developer.
+          become a well-rounded and versatile Web developer.
+          
         </p>
 
         <br />
@@ -34,6 +35,7 @@ const About = () => {
         </p>
       </div>
     </div>
+   
   );
 };
 
