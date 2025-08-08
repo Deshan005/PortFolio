@@ -7,70 +7,79 @@ const SocialLinks = () => {
   const links = [
     {
       id: 1,
-      child: (
-        <>
-          LinkedIn <FaLinkedin size={30} />
-        </>
-      ),
-      href: "https://www.linkedin.com/in/deshan-wijethunga-14846a232/",
+      label: "LinkedIn",
+      icon: <FaLinkedin size={22} />,
+      href: "https://www.linkedin.com/in/deshan-wijethunga/",
       style: "rounded-tr-md",
     },
     {
       id: 2,
-      child: (
-        <>
-          GitHub <FaGithub size={30} />
-        </>
-      ),
+      label: "GitHub",
+      icon: <FaGithub size={22} />,
       href: "https://github.com/deshan005",
     },
     {
       id: 3,
-      child: (
-        <>
-          Mail <HiOutlineMail size={30} />
-        </>
-      ),
+      label: "Mail",
+      icon: <HiOutlineMail size={22} />,
       href: "mailto:deshanw77@gmail.com",
     },
     {
       id: 4,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "/resume.pdf",
+      label: "Resume",
+      icon: <BsFillPersonLinesFill size={22} />,
+      href: "/Deshan - CV",
       style: "rounded-br-md",
       download: true,
     },
   ];
 
   return (
-    <div className="hidden lg:flex flex-col top-[15%] left-0 fixed">
-      <ul>
-        {links.map(({ id, child, href, style, download }) => (
-          <li
-            key={id}
-            className={
-              "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
-              " " +
-              style
-            }
-          >
+    <>
+      {/* Desktop Sidebar */}
+      <div className="hidden lg:flex flex-col top-[30%] left-0 fixed z-50">
+        <ul>
+          {links.map(({ id, label, icon, href, style, download }) => (
+            <li
+              key={id}
+              className={
+                `flex justify-between items-center w-40 h-14 px-4 ml-[-100px] 
+                hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 text-white` +
+                ` ${style}`
+              }
+            >
+              <a
+                href={href}
+                className="flex justify-between items-center w-full"
+                download={download}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {label} {icon}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Mobile Bottom Bar */}
+      <div className="lg:hidden fixed bottom-4 inset-x-0 px-4 z-50">
+        <div className="flex justify-around bg-gray-800 text-white rounded-xl shadow-md py-2">
+          {links.map(({ id, icon, href, download }) => (
             <a
+              key={id}
               href={href}
-              className="flex justify-between items-center w-full text-white"
+              className="flex flex-col items-center text-xs"
               download={download}
               target="_blank"
               rel="noreferrer"
             >
-              {child}
+              {icon}
             </a>
-          </li>
-        ))}
-      </ul>
-    </div>
+          ))}
+        </div>
+      </div>
+    </>
   );
 };
 

@@ -4,35 +4,35 @@ const About = () => {
   return (
       <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black text-white py-12 px-4 flex items-center"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About
           </p>
         </div>
-
         <p className="text-xl mt-15 text-justify">
-          I'am Namidu Deshan Wijethunga. Currently, I am in my second year of studies, and I have been actively involved in 
-          enhancing my technical skills and knowledge. In addition to my coursework, I have been 
-          dedicating my time to self-study the MERN stack, which encompasses MongoDB, Express.js,
-          React.js, and Node.js. I believe that by learning this stack, I am equipping myself to 
-          become a well-rounded and versatile Web developer.
-          
+          I am Deshan Wijethunga, currently in my final year of the BEng (Hons) in Software 
+          Engineering at the University of Westminster. Over the past years, I have built a strong 
+          foundation in software development through both academic projects and industry experience 
+          gained during my internships at the Center for Defense Research and Development and Apex 
+          Innovations. Alongside my coursework, I have dedicated significant time to mastering the 
+          MERN stack — MongoDB, Express.js, React.js, and Node.js — enabling me to develop scalable 
+          and efficient full-stack web applications.
         </p>
 
         <br />
 
         <p className="text-xl text-justify mb-20">
-        Apart from my technical abilities, I possess strong leadership qualities, as 
-        demonstrated by my involvement in various group projects and extracurricular activities 
-        during my academic journey. I believe in effective communication, collaboration, and the
-        ability to inspire and motivate team members to achieve common goals.One of my
-        strengths is my commitment to meeting deadlines and delivering quality work. 
-        I understand the importance of responsibility and accountability in a professional 
-        environment. I take ownership of my tasks and strive to exceed expectations by 
-        producing high-quality code and solutions.
+          In addition to my technical expertise, I possess strong leadership and teamwork skills, 
+          demonstrated through successful group projects and extracurricular activities. My ability 
+          to communicate effectively, collaborate with diverse teams, and motivate peers has been 
+          key to achieving shared goals. I am highly committed to meeting deadlines, delivering 
+          high-quality solutions, and taking full ownership of my responsibilities. Currently, I am 
+          working on my final-year research project — an IoT-Based Smart Agriculture System for 
+          Greenhouses — where I am applying both my technical and problem-solving abilities to 
+          deliver impactful results.
         </p>
       </div>
     </div>
