@@ -28,7 +28,7 @@ const SocialLinks = () => {
       id: 4,
       label: "Resume",
       icon: <BsFillPersonLinesFill size={22} />,
-      href: "/Deshan - CV",
+      href: "Deshan_CV.pdf",
       style: "rounded-br-md",
       download: true,
     },
