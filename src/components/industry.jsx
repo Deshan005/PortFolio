@@ -41,6 +41,18 @@ const Industry = () => {
       link: "https://github.com/Deshan005/PortFolio",
       techStack: "React.js, Tailwind CSS",
     },
+    {
+      title: "Cleaning CRM",
+      description: "Contains the frontend of the Cleaning CRM (Customer Relationship Management) system, new design, responsive styling (DEVELOPMENTS ONGOING)",
+      link: "https://github.com/Deshan005/Commercial-Cleaning-CRM",
+      techStack: "Reactjs, Next.js, Typescript",
+    },
+    {
+      title: "SOLORA",
+      description: "Contains the frontend of the SOLORA website, new design, responsive styling (DEVELOPMENTS ONGOING)",
+      link: "https://github.com/Deshan005/Project-Solora",
+      techStack: "Reactjs, Next.js, Typescript",
+    }
   ];
 
   return (
@@ -55,7 +67,7 @@ const Industry = () => {
             Industry Experience
           </p>
           <p className="py-6">
-            A look at my professional journey and contributions.
+            Take a look at my professional Journey and Contributions.
           </p>
         </div>
 

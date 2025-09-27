@@ -8,6 +8,9 @@ import progression from "../assets/portfolio/progression.png";
 import portfolio from "../assets/portfolio/portfolio.png";
 import skincare from "../assets/portfolio/skincare.png";
 import cinephile from "../assets/portfolio/pop.png";
+import crm from "../assets/portfolio/crm.png"
+import solora from "../assets/portfolio/solora.png"
+import medi from "../assets/portfolio/medi.png"
 
 const Portfolio = () => {
   const portfolios = [
@@ -29,33 +32,48 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      src: hangman,
-      link: "https://github.com/Deshan005/Hangman-Game",
+      src: crm,
+      link: "https://github.com/Deshan005/Commercial-Cleaning-CRM",
     },
     {
       id: 5,
+      src: solora,
+      link: "https://github.com/Deshan005/Project-Solora",
+    },
+    {
+      id: 6,
+      src: medi,
+      link: "https://github.com/Deshan005/MediHelp",
+    },
+    {
+      id: 7,
       src: fuel,
       link: "https://github.com/Deshan005/Fuel-Queue-Management-System",
     },
     {
-      id: 6,
+      id: 8,
       src: progression,
       link: "https://github.com/Deshan005/Progression-Outcome-Predictor",
     },
     {
-      id: 7,
+      id: 9,
       src: portfolio,
       link: "https://github.com/Deshan005/PortFolio",
     },
     {
-      id: 8,
+      id: 10,
       src: skincare,
       link: "https://github.com/Deshan005/Skin-Consultation-Management-System",
     },
     {
-      id: 9,
+      id: 11,
       src: cinephile,
       link: "https://github.com/Deshan005/Mr-Cinephile-Movie-Website",
+    },
+    {
+      id: 12,
+      src: hangman,
+      link: "https://github.com/Deshan005/Hangman-Game",
     },
   ];
 

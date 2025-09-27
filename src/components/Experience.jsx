@@ -11,6 +11,7 @@ import mongo from "../assets/mongo.png";
 import express from "../assets/express.png";
 import node from "../assets/node.png";
 import mysql from "../assets/mysql.png";
+import next from "../assets/next.png"
 
 const Experience = () => {
   const techs = [
@@ -35,9 +36,15 @@ const Experience = () => {
     {
       id: 4,
       src: reactImage,
-      title: "REACT",
+      title: "REACT.JS",
       style: "shadow-blue-600",
     },
+    {
+      id: 5,
+      src: next,
+      title: "NEXT.JS",
+      style: "shadow-gray-500",
+    },    
     {
       id: 5,
       src: github,
