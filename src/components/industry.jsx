@@ -3,6 +3,20 @@ import React from "react";
 const Industry = () => {
   const industry = [
     {
+      company: "Innovis Engineering",
+      role: "Full Stack Developer",
+      period: "Oct 2025- Feb 2026",
+      project: "Worked on multiple projects",
+      contributions: [
+        "Developed an application to hire candidates, Recruiting operations.(Most Contributed)",
+        "Worked on a project Desk and Meeting Rooms Management System.(Contributed)",
+        "Worked on the Hilary Mobile App.(Contributed)",
+        "Developed a Landing site for the Hilary mobile app.(Fully)",
+        "Worked on Admin dashboard and Operator portal aligned to Mobile App(Contributed)",
+      ],
+      techStack: "React(typescript), Nodejs, React Native, HTML, Bootstrap CSS,JavaScript, Odoo, Supabase, Github, Netlify, Chakra UI, Acuity Scheduling",
+    },    
+    {
       company: "CDRD (Ministry of Defense)",
       role: "Intern Software Engineer",
       period: "Sep 2023 - Mar 2024",
